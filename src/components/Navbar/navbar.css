@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0F0F0F;
+    padding: 16px 20px;
+}
+.r-corner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.r-corner img{
+    width: 40px;
+    height: 40px;
+}
+.dd{
+    border: none;
+    background-color:#0F0F0F ;
+    color: #FEFEFE80;
+    
+}

@@ -1,0 +1,69 @@
+.report-card{
+    width: 27vw;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    color: #4D4D4D;
+    border-radius: 8px;
+    right: 0vw;
+    position: absolute;
+    bottom: 6vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+}
+.report-card .msg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 2vw;
+    border-bottom: 1px solid black;
+}
+.select-issue{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 2vw 0.8vw 1vw 0.8vw;
+    gap: 8px;
+}
+.select-issue select{
+    width: 100%;
+    height: 3vw;
+    border-radius: 5px;
+    border: none;
+    background-color: #E0E0E0;
+    padding: 0 0.5vw;
+    
+}
+.fields{
+    padding-left: 1vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+select option {
+    background-color:  #E0E0E0;
+    border-bottom: 1px solid #4D4D4D;
+    
+    
+  }
+
+
+  textarea{
+    margin-top: 15px;
+    background-color: #E0E0E0;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 8px;
+}
+form button{
+    margin: 0 0 2vw 18vw;
+    background-color: #4D4D4D;
+    border: none;
+    color: #E0E0E0;
+    font-size: 16px;
+    padding: 0.5vw 1vw;
+    border-radius: 4px;
+}

@@ -1,0 +1,40 @@
+.contact{
+    width: 27vw;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    color: #4D4D4D;
+    border-radius: 8px;
+    right: 0vw;
+    position: absolute;
+    bottom: 6vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+    padding: 2vw 0 1vw 1vw;
+    
+   
+  
+  
+    
+}
+
+.contact h4{
+    text-align: center;
+    border-bottom: 1px solid #4D4D4D;
+    padding-bottom: 2vw;
+    margin-bottom: 1vw;
+}
+.contact input{
+    background: #E0E0E0;
+    border: none;
+    padding: .5vw 0.6vw;
+    width: 90%;
+    text-indent: 5px;
+    border: 6px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+textarea::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
